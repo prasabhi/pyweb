@@ -1,5 +1,7 @@
 # tests/test_webapp.py
 import pytest
+import sys
+sys.path.append('/src/main/python/')
 from app import app
 
 @pytest.fixture
