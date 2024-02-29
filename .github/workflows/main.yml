@@ -51,7 +51,7 @@ jobs:
 
     - name: Run unit tests
       run: |
-        pytest unittest/python/test_webapp.py
+        pytest src/unittest/python/test_webapp.py
 
   lint:
     runs-on: ubuntu-latest
