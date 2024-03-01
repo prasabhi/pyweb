@@ -1,7 +1,7 @@
 # tests/test_webapp.py
 import pytest
 
-from app import app
+from ...main.python.app import app
 
 
 @pytest.fixture
