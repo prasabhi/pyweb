@@ -53,6 +53,17 @@ jobs:
       run: |
         pytest src/unittest/python/app_tests.py
 
+    - name: Upload Test Results
+      uses: actions/upload-artifact@v2
+      with:
+        name: test-results
+        path: target/reports  
+
+    - name: List Files  # Optional step
+      run: |
+        ls -R      
+
+
   lint:
     runs-on: ubuntu-latest
 
