@@ -6,6 +6,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
+    """
+    We'll use Flask to create a basic web application.
+
+    """
+
     return render_template('index.html')
 
 
