@@ -1,6 +1,5 @@
 {
     "python.analysis.extraPaths": [
         "./src/main/python"
-    ],
-    "python.linting.pylintArgs": ["--max-line-length=100"]
+    ]
 }
