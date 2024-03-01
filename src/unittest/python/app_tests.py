@@ -1,7 +1,12 @@
 # tests/test_webapp.py
 import pytest
+import sys
+import os
 
-from ...main.python.app import app
+# Add src/main/python directory to the Python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'main', 'python')))
+
+from app import app
 
 
 @pytest.fixture
