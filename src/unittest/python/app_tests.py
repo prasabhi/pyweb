@@ -1,4 +1,4 @@
-# tests/test_webapp.py
+# app_tests.py
 import pytest
 import sys
 import os
